@@ -1,0 +1,172 @@
+# Blender MTL File: 'street_cart_meetball.blend'
+# Material Count: 16
+
+newmtl col_ban_gerobak
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.033617 0.033617 0.033617
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_black_kusen
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.010724 0.000192 0.000476
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl col_master_gerobak
+Ns 92.156863
+Ka 1.000000 1.000000 1.000000
+Kd 0.650006 0.650006 0.650006
+Ks 0.040000 0.040000 0.040000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_text
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.103208 0.640000 0.001312
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl col_transparant
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.319275 0.344855 0.366005
+Ks 0.400000 0.400000 0.400000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.400000
+illum 2
+
+newmtl col_transparant_2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.084202 0.159159 0.366005
+Ks 0.400000 0.400000 0.400000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.400000
+illum 2
+
+newmtl col_uv_poster
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\uv_texture_wall_2.png
+
+newmtl col_uv_tex_bata
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Bump -bm 0.200000 C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\white_wall.jpg
+map_Kd C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\white_wall.jpg
+
+newmtl tex_atap
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.008865 0.008865 0.008865
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl uv_ban_gerobak
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.033849 0.033849 0.033849
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\ban_baso_2.png
+
+newmtl uv_tanah
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\way.jpg
+
+newmtl uv_tex_gold
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.040240 0.009029
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\tex_gold.jpg
+
+newmtl uv_tex_pejalan_kaki
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\white_wall.jpg
+
+newmtl uv_tex_wood
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.230274 0.619417 0.010124
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\wood.jpg
+
+newmtl uv_tex_wood_2
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.047126 0.117851 0.020035
+Ks 0.100000 0.100000 0.100000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\woo_2.jpg
+
+newmtl uv_texture_bulengan
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+refl C:\\Users\\zak keren\\Desktop\\Cart_Meatball\\Texturizer\\Blury.jpg
