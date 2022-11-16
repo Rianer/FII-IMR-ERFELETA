@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 4c2824d642ff5464c8eb1b2e1a7dca57
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_001Mat
+    second: {fileID: 2100000, guid: 728e7fdf1f670d94ab20cc06208dfb07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_002Mat
+    second: {fileID: 2100000, guid: 42b5997b03a93624d9419bd71400857a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_058Mat
+    second: {fileID: 2100000, guid: 09805137961957b4ca1c65673af29748, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_059Mat
+    second: {fileID: 2100000, guid: f6482a5d00b06c84eac0b26f52652928, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_060Mat
+    second: {fileID: 2100000, guid: 2179b7ccf3cde1842ba730d614d88325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_061Mat
+    second: {fileID: 2100000, guid: 797516906329353499cb12dad0876e6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_062Mat
+    second: {fileID: 2100000, guid: 953a6a827aaa7a847b55fea73ed3f46f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_063Mat
+    second: {fileID: 2100000, guid: 7027edd0e9810e84f8ed4bf3a194f986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_064Mat
+    second: {fileID: 2100000, guid: 6e1f8d07b68d77742924e0841afa33c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_065Mat
+    second: {fileID: 2100000, guid: 2aec73e45fe7df24ba3ca935939b34f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_066Mat
+    second: {fileID: 2100000, guid: ba0e7e6a41bec7940a32a07af8989e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_067Mat
+    second: {fileID: 2100000, guid: 999fb2481c11c7144b646a490f5e3074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_068Mat
+    second: {fileID: 2100000, guid: 8c77501c96b49f048b237bc6a2da44b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_069Mat
+    second: {fileID: 2100000, guid: cab7a2eebeb0d884e80db987db6ba72c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_070Mat
+    second: {fileID: 2100000, guid: f386954f885eb4341abae6dedc0819df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_071Mat
+    second: {fileID: 2100000, guid: a630d00a660ecc947b781e539d960725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_072Mat
+    second: {fileID: 2100000, guid: ed8af9d292ffcd34bb4263d05cc0c76a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_073Mat
+    second: {fileID: 2100000, guid: 88b1f64ef8c99ca4fb23ff4c6e2fed6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_074Mat
+    second: {fileID: 2100000, guid: 0b6c37dfd34a23f438775888158045ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_075Mat
+    second: {fileID: 2100000, guid: 01ee7923520dec04da75b9f2cf6c99eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_076Mat
+    second: {fileID: 2100000, guid: c90002910acae3f478043674bced2e95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_077Mat
+    second: {fileID: 2100000, guid: 703221f19941fce47af2b27b2c388fc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_078Mat
+    second: {fileID: 2100000, guid: d2bae0c5ca19d5a41ac41d2a46079f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_079Mat
+    second: {fileID: 2100000, guid: 04ffc12e2c1e5dd4096d5a27458ee656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_080Mat
+    second: {fileID: 2100000, guid: be45d429f9b13bb44a365fa1a9a11e7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_081Mat
+    second: {fileID: 2100000, guid: 9d214d9e0811ed74199a06b8737e8af9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_082Mat
+    second: {fileID: 2100000, guid: 64ebd5cc95e45a646bd89ae7020b6a3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_083Mat
+    second: {fileID: 2100000, guid: 998f305461cd8fb49a78403b2fd19e18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_084Mat
+    second: {fileID: 2100000, guid: 79f8844c59f82f64489d1bd87697f7cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_085Mat
+    second: {fileID: 2100000, guid: f4bb382011e4480498f9fc1fa18b9357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_086Mat
+    second: {fileID: 2100000, guid: 029e204f898cb01418a3adc20c6800d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_087Mat
+    second: {fileID: 2100000, guid: e32bf3eb8277c7a4bab5f89421ff7beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_088Mat
+    second: {fileID: 2100000, guid: f5d8c85e7eef43248b6a05e396569272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_089Mat
+    second: {fileID: 2100000, guid: 32082b5e5b12523498ed73cdedef0b17, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Provisione_table_090Mat
+    second: {fileID: 2100000, guid: 7c1a49ab42e623143a0fe9f308fc7282, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
