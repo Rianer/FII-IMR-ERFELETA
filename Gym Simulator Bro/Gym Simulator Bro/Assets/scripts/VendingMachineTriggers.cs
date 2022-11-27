@@ -8,18 +8,26 @@ public class VendingMachineTriggers : MonoBehaviour
     GameObject objectToSpawn;
     // Start is called before the first frame update
     bool locked = false;
+   
     private void OnTriggerEnter(Collider other)
     {
 
         Debug.Log(name + " to " + other.name);
 
-        if(other.name.EndsWith("hand") && locked == false)
+        if (StatsController.Instance.GetMoney() >= 10)
         {
-            locked = true;
-            GameObject foodItem = Instantiate(objectToSpawn, GetComponentInParent<Transform>().position + new Vector3(0,0,-1), transform.rotation);
-            StartCoroutine(unlock());
+            if (other.name.EndsWith("hand") && locked == false)
+            {
+                locked = true;
+                GameObject foodItem = Instantiate(objectToSpawn, GetComponentInParent<Transform>().position + new Vector3(0, 0, -1), transform.rotation);
+                StartCoroutine(unlock());
+            }
+            StatsController.Instance.DecreaseMoney(10);
         }
-            
+        else
+        {
+            Debug.Log("Not enough money");
+        }
     }
 
     IEnumerator unlock()
