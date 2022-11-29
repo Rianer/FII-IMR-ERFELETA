@@ -114,6 +114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 0}
+  price: 4
 --- !u!1 &2558322089429822764
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,6 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 0}
+  price: 5
 --- !u!1 &4707952345994533941
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,6 +234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 3160287237119469480, guid: 47794d96be03aa4488ec0cddd2669597, type: 3}
+  price: 3
 --- !u!1 &4719833323468531583
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,6 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 9187518333411978279, guid: f104c757addbd64459c3af5bd98b2166, type: 3}
+  price: 8
 --- !u!1 &4934159331489604647
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,6 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 7825508640706682807, guid: 898a1ed5c347d18439b58c8161544da1, type: 3}
+  price: 6
 --- !u!1 &6545662604348844717
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,6 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 6652306892488537877, guid: cfd73dbe863b5344ca1b6785a40f3b52, type: 3}
+  price: 3
 --- !u!1 &6585165588475243291
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,6 +474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 3684705730336479124, guid: bea959314ec08724fb792090bf98296a, type: 3}
+  price: 2
 --- !u!1 &8984255321347978669
 GameObject:
   m_ObjectHideFlags: 0

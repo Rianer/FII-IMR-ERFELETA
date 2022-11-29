@@ -6,6 +6,8 @@ public class VendingMachineTriggers : MonoBehaviour
 {
     [SerializeField]
     GameObject objectToSpawn;
+    [SerializeField]
+    int price;
     // Start is called before the first frame update
     bool locked = false;
    
@@ -14,7 +16,7 @@ public class VendingMachineTriggers : MonoBehaviour
 
         Debug.Log(name + " to " + other.name);
 
-        if (StatsController.Instance.GetMoney() >= 10)
+        if (StatsController.Instance.GetMoney() >= price)
         {
             if (other.name.EndsWith("hand") && locked == false)
             {
@@ -22,7 +24,7 @@ public class VendingMachineTriggers : MonoBehaviour
                 GameObject foodItem = Instantiate(objectToSpawn, GetComponentInParent<Transform>().position + new Vector3(0, 0, -1), transform.rotation);
                 StartCoroutine(unlock());
             }
-            StatsController.Instance.DecreaseMoney(10);
+            StatsController.Instance.DecreaseMoney(price);
         }
         else
         {
