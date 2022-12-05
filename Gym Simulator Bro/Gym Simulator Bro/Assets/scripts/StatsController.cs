@@ -10,6 +10,9 @@ public class StatsController : MonoBehaviour
     int respect = 0;
     int stamina = 100;
     int money = 100;
+    public int health = 100;
+    [SerializeField] public int damage;
+
 
     public static StatsController Instance { get; private set; }
     [SerializeField] GameObject hungerText;
@@ -20,6 +23,7 @@ public class StatsController : MonoBehaviour
     void Awake()
     {
         Instance= this;
+        
     }
 
     void Update()
@@ -84,6 +88,11 @@ public class StatsController : MonoBehaviour
     public int GetMoney()
     {
         return money;
+    }
+
+    public void TakeDamage(int npcDamage)
+    {
+        health = health - npcDamage;
     }
 
     public void DisplayStatus()
