@@ -15,7 +15,7 @@ public class TreadmillExercise : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if(other.name.EndsWith(" hand"))
-            Debug.Log("onTriggerEnter: " + other.name);
+            //Debug.Log("onTriggerEnter: " + other.name);
         if (other.name.Equals("right hand"))
             rightHandInsideTreadmill = true;
         else if (other.name.Equals("left hand"))
@@ -35,7 +35,7 @@ public class TreadmillExercise : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.name.EndsWith(" hand"))
-            Debug.Log("onTriggerExit: " + other.name);
+            //Debug.Log("onTriggerExit: " + other.name);
         if (other.name.Equals("right hand"))
             rightHandInsideTreadmill = false;
         else if (other.name.Equals("left hand"))

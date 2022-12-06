@@ -40,7 +40,7 @@ public class NPC : MonoBehaviour
 
         if(collider.tag == "Throwable" || collider.tag == "Liftable")
         {
-            TakeDamage(10); //damage obiecte hardcodat
+            TakeDamage(100); //damage obiecte hardcodat
             if (health <= 0)
             {
                 Debug.Log("Won fight");
