@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class StatsController : MonoBehaviour
 {
     int hunger = 100;
-    int respect = 0;
+    int respect = 51;
     int stamina = 100;
     int money = 100;
     public int health = 100;
@@ -88,6 +88,11 @@ public class StatsController : MonoBehaviour
     public int GetMoney()
     {
         return money;
+    }
+    
+    public int GetRespect()
+    {
+        return respect;
     }
 
     public void TakeDamage(int npcDamage)
