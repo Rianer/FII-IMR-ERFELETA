@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class NPC : MonoBehaviour
@@ -8,14 +10,23 @@ public class NPC : MonoBehaviour
     [SerializeField] GameObject npc;
     [SerializeField] int health;
     [SerializeField] int damage;
+    private int start_money;
+    private int start_health;
+    private int start_damage;
+  
+ 
+    public bool isSpawned = true;
     void Start()
     {
-        
+        start_damage = damage;
+        start_money = money;
+        start_health= health;
+     
     }
 
     void Update()
     {
-        
+       
     }
 
     public void OnTriggerEnter(Collider collider)
@@ -29,13 +40,17 @@ public class NPC : MonoBehaviour
             {
                 Debug.Log("Won fight");
                 StatsController.Instance.IncreaseMoney(money);
-                Destroy(npc);
+                NPCsSpawner.Instance.start = DateTime.Now;
+                ResetStats();
+                npc.SetActive(false);
+               
             }
             if (StatsController.Instance.health<= 0) 
             {
                 Debug.Log("Lost fight");
                 PlayerController.Instance.RespawnPlayer();
             }
+           
         }
 
         if(collider.tag == "Throwable" || collider.tag == "Liftable")
@@ -45,7 +60,9 @@ public class NPC : MonoBehaviour
             {
                 Debug.Log("Won fight");
                 StatsController.Instance.IncreaseMoney(money);
-                Destroy(npc);
+                NPCsSpawner.Instance.start = DateTime.Now;
+                ResetStats();
+                npc.SetActive(false);
             }
         }
     }
@@ -60,5 +77,12 @@ public class NPC : MonoBehaviour
     {
         instance.TakeDamage(damage);
         Debug.Log("player health: " + instance.health.ToString());
+    }
+  
+    public void ResetStats()
+    {
+        damage = start_damage;
+        health= start_health;
+        money= start_money;
     }
 }
