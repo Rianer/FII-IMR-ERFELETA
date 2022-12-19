@@ -85,7 +85,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 41a4d49e46ae80d48ac32a9f27ea9c57, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f1850424c7ef6c44999d9facb1a5ced, type: 3}
       propertyPath: m_Name
-      value: water_bottle (1)
+      value: water_bottle (1) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7f1850424c7ef6c44999d9facb1a5ced, type: 3}
+      propertyPath: m_TagString
+      value: Edible
       objectReference: {fileID: 0}
     - target: {fileID: 4083501151425157549, guid: 7f1850424c7ef6c44999d9facb1a5ced, type: 3}
       propertyPath: m_LocalPosition.x
@@ -272,3 +276,17 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &6726121588063436769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3684705730336479124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32bc798ad0321b4da073ae384262ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hunger: 2
+  stamina: 15

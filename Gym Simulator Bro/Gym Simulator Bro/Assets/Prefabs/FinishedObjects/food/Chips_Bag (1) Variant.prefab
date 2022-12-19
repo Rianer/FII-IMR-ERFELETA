@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chips_Bag (1) Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 92cce2800d7db28479f066f364fc914f, type: 3}
+      propertyPath: m_TagString
+      value: Edible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92cce2800d7db28479f066f364fc914f, type: 3}
 --- !u!1 &6652306892488537877 stripped
@@ -216,3 +220,17 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &4753868723711496077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6652306892488537877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32bc798ad0321b4da073ae384262ca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hunger: 20
+  stamina: -2

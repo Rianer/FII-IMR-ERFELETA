@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Liftable
+  - Player Hand
+  - Throwable
+  - Edible
   layers:
   - Default
   - TransparentFX
@@ -12,8 +15,8 @@ TagManager:
   - Ground
   - Water
   - UI
-  - 
-  - 
+  - hand
+  - player body
   - 
   - 
   - 

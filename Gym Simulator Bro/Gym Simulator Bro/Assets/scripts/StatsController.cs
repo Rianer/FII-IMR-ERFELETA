@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+
 
 public class StatsController : MonoBehaviour
 {
@@ -15,10 +17,10 @@ public class StatsController : MonoBehaviour
 
 
     public static StatsController Instance { get; private set; }
-    [SerializeField] GameObject hungerText;
-    [SerializeField] GameObject respectText;
-    [SerializeField] GameObject staminaText;
-    [SerializeField] GameObject moneyText;
+    [SerializeField] TextMeshProUGUI hungerText;
+    [SerializeField] TextMeshProUGUI respectText;
+    [SerializeField] TextMeshProUGUI staminaText;
+    [SerializeField] TextMeshProUGUI moneyText;
     
     void Awake()
     {
@@ -60,6 +62,7 @@ public class StatsController : MonoBehaviour
         }
 
     }
+
     
     public void DecreaseStamina(int amount)
     {
@@ -79,7 +82,12 @@ public class StatsController : MonoBehaviour
     {
         money = money + amount;
     }
-    
+
+    public void IncreaseHunger(int amount)
+    {
+        hunger = hunger + amount;
+    }
+
     public void DecreaseHunger()
     {
         hunger = hunger - 5;
@@ -102,10 +110,10 @@ public class StatsController : MonoBehaviour
 
     public void DisplayStatus()
     {
-        hungerText.GetComponent<Text>().text = hunger.ToString()+"/100";
-        respectText.GetComponent<Text>().text = respect.ToString() + "/100";
-        staminaText.GetComponent<Text>().text = stamina.ToString() + "/100";
-        moneyText.GetComponent<Text>().text = money.ToString() + "/100";
+        hungerText.text = hunger.ToString()+"/100";
+        respectText.text = respect.ToString() + "/100";
+        staminaText.text = stamina.ToString() + "/100";
+        moneyText.text = money.ToString() + "/100";
     }
 
 }
