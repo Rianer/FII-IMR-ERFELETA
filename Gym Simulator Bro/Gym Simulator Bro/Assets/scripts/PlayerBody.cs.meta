@@ -3,7 +3,10 @@ guid: c5c9ae0c958b5e8438cc96ae1c9d77bc
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - playerCamera: {fileID: 7717695332079669151, guid: c56cfb123715c964ca055a29393cf823, type: 3}
+  - shoulderLevelCollider: {instanceID: 0}
+  - kneesLevelCollider: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

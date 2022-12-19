@@ -13,7 +13,8 @@ public class NPC : MonoBehaviour
     private int start_money;
     private int start_health;
     private int start_damage;
-  
+    AudioSource myAudioSource;
+
  
     public bool isSpawned = true;
     void Start()
@@ -21,6 +22,7 @@ public class NPC : MonoBehaviour
         start_damage = damage;
         start_money = money;
         start_health= health;
+        myAudioSource = GetComponent<AudioSource>();
      
     }
 
@@ -31,10 +33,10 @@ public class NPC : MonoBehaviour
 
     public void OnTriggerEnter(Collider collider)
     {
-        Debug.Log("NPC says AUCH");
+
         if (collider.tag == "Player Hand")
-        {
-            Debug.Log("NPC says AUCH");
+        { 
+            myAudioSource.Play();
             TakeDamage(StatsController.Instance.damage);
             DealDamage(StatsController.Instance);
 
@@ -57,6 +59,7 @@ public class NPC : MonoBehaviour
 
         if(collider.tag == "Throwable" || collider.tag == "Liftable")
         {
+            myAudioSource.Play();
             TakeDamage(100); //damage obiecte hardcodat
             if (health <= 0)
             {

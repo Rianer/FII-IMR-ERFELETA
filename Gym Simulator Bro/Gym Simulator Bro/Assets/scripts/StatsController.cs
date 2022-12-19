@@ -103,6 +103,16 @@ public class StatsController : MonoBehaviour
         return respect;
     }
 
+    public int GetHunger()
+    {
+        return hunger;
+    }
+
+    public int GetStamina()
+    {
+        return stamina;
+    }
+
     public void TakeDamage(int npcDamage)
     {
         health = health - npcDamage;

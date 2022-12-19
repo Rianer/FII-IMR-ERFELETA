@@ -3,7 +3,11 @@ guid: 6aa810b5bd9515d4ca668a0e86ff6355
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - hungerText: {fileID: 2345373971605956931, guid: 4d32688a6c463864b8d1c664b9a4166f, type: 3}
+  - respectText: {fileID: 925772587497763926, guid: eb068f3d083ce4d469294172c3a2b0b3, type: 3}
+  - staminaText: {fileID: 8546193385548548731, guid: c8173270453a55a418de41284f620710, type: 3}
+  - moneyText: {fileID: 6541979663320351490, guid: 3ff2cc2d273dbe7428c3fb0e4c9572c2, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
