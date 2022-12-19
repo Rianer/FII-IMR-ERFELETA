@@ -31,8 +31,10 @@ public class NPC : MonoBehaviour
 
     public void OnTriggerEnter(Collider collider)
     {
+        Debug.Log("NPC says AUCH");
         if (collider.tag == "Player Hand")
         {
+            Debug.Log("NPC says AUCH");
             TakeDamage(StatsController.Instance.damage);
             DealDamage(StatsController.Instance);
 

@@ -1,18 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class StartBtn : MonoBehaviour
 {
-    
-     public void OnTriggerEnter(Collider collider)
+     public void Respawn()
     {
-        if (collider.tag == "Player Hand")
-        {
-            PlayerController.Instance.RespawnPlayer();
-            Debug.Log("A intrat aici");
-        }
+       
+        PlayerController.Instance.RespawnPlayer();
+        
     }
     void Start(){}
     void Update()

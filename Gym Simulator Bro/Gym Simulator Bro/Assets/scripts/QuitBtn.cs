@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class QuitBtn : MonoBehaviour
 {
-      public void OnTriggerEnter(Collider collider)
+      public void Exit()
     {
-        if (collider.tag == "Player Hand")
-        {
-                Debug.Log("A intrat aici quit");
-            	Application.Quit();
-        }
+        
+        Application.Quit();
+        
     }
     void Start()
     {}
