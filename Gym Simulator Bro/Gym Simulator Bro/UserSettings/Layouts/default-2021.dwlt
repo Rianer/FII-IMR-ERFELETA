@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 570
     height: 931
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 16276
+  controlID: 71
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16277
+  controlID: 72
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 81
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 20
+  controlID: 82
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -294,14 +294,14 @@ MonoBehaviour:
     y: 639
     width: 1334
     height: 292
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -660,9 +660,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -36.787884, y: 4.3935637, z: -30.22654}
+    m_Target: {x: -34.871975, y: 3.786287, z: -33.38584}
     speed: 2
-    m_Value: {x: -36.787884, y: 4.3935637, z: -30.22654}
+    m_Value: {x: -34.871975, y: 3.786287, z: -33.38584}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -709,13 +709,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0060275774, y: -0.31256527, z: -0.0017888146, w: 0.95015}
+    m_Target: {x: -0.09848352, y: -0.24721935, z: 0.024838755, w: -0.96388924}
     speed: 2
-    m_Value: {x: -0.0060286815, y: -0.31105858, z: -0.001779307, w: 0.9503699}
+    m_Value: {x: -0.09704924, y: -0.24574667, z: 0.024315689, w: -0.96415704}
   m_Size:
-    m_Target: 1.3276813
+    m_Target: 1.1540474
     speed: 2
-    m_Value: 1.3276813
+    m_Value: 0.32386667
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -733,7 +733,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.012602909, y: -0.71953994, z: 0.012462655, w: -0.69459563}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -830,7 +830,7 @@ MonoBehaviour:
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 1
+  m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -862,24 +862,24 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 2523}
+      scrollPos: {x: 0, y: 2411}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b4ccfdffc0ccfdff5cd5fdff68d5fdff74d5fdff80d5fdff8cd5fdff98d5fdffa4d5fdff826effff3a8affff9acbffff44cdffff10d7ffff1cf3ffffc66e0000986f00001c710000247200006c7200008674000024750000
+      m_ExpandedIDs: 52d3ffffd0d4ffff84d8ffffcee6ffffd6e6ffff26f3ffff32f3ffffd6f3ffff286e0000286f0000706f000072700000de7000004271000078730000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: banana collider
+        m_OriginalName: banana collider
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 297654
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -930,23 +930,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/scripts
+    - Assets/sounds/Player
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/scripts
+  - Assets/sounds/Player
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: F:\GitHub\Erfeleta\FII-IMR-ERFELETA\Gym Simulator Bro\Gym Simulator
-    Bro
+  m_LastProjectPath: D:\git\FII-IMR-ERFELETA\Gym Simulator Bro\Gym Simulator Bro
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 181}
-    m_SelectedIDs: e88e0000
-    m_LastClickedID: 36584
-    m_ExpandedIDs: 000000008a8e00008c8e00008e8e0000d88e0000ec8e0000741b020000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 329}
+    m_SelectedIDs: c2010200
+    m_LastClickedID: 131522
+    m_ExpandedIDs: 000000009c8e00009e8e0000a08e0000b08e0000b88e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -974,7 +973,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008a8e00008c8e00008e8e0000
+    m_ExpandedIDs: 000000009c8e00009e8e0000a08e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1001,7 +1000,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300001e9400003ec800002c6b0000c46a0000b28c0000b2d4000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
