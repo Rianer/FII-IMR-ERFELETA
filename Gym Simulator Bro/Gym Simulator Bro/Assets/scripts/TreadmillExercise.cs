@@ -50,8 +50,8 @@ public class TreadmillExercise : MonoBehaviour
             Debug.Log("Travel distance: " + (travelDistanceLeftHand + travelDistanceRightHand));
             Debug.Log("Elapsed Time: " + elapsedTime);
             double totalEffort = (travelDistanceLeftHand + travelDistanceRightHand) / elapsedTime;
-            StatsController.Instance.IncreaseRespect((int)totalEffort);
-            StatsController.Instance.DecreaseStamina((int)(totalEffort/2));
+            StatsController.Instance.IncreaseRespect((int)(1));
+            StatsController.Instance.DecreaseStamina((int)(3));
 
 
             travelDistanceLeftHand = 0;

@@ -17,6 +17,7 @@ public class PlayerBody : MonoBehaviour
 
     private float globaShoulderColliderLimit;
     private float globalKneeColliderLimit;
+    bool locked = false;
 
     private bool objectLifted;
     void Start()
@@ -32,7 +33,26 @@ public class PlayerBody : MonoBehaviour
     void Update()
     {
         playerTransform.position = new Vector3(cameraTransform.position.x, playerTransform.position.y, cameraTransform.position.z);
+        Vector3 currentPosition = playerTransform.position;
+        if (!locked)
+        {
+            locked = true;
+            StartCoroutine(checkResting(currentPosition));
+        }
+        
     }
+
+
+    IEnumerator checkResting(Vector3 currentPosition)
+    {
+        yield return new WaitForSeconds(10);
+        if(playerTransform.position == currentPosition)
+        {
+            StatsController.Instance.IncreaseStamina(10);
+        }
+        locked = false;
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {
