@@ -9,7 +9,7 @@ using TMPro;
 public class StatsController : MonoBehaviour
 {
     int hunger = 100;
-    int respect = 51;
+    int respect = 0;
     int stamina = 100;
     int money = 100;
     public int health = 100;
@@ -123,7 +123,7 @@ public class StatsController : MonoBehaviour
         hungerText.text = hunger.ToString()+"/100";
         respectText.text = respect.ToString() + "/100";
         staminaText.text = stamina.ToString() + "/100";
-        moneyText.text = money.ToString() + "/100";
+        moneyText.text = money.ToString();
     }
 
 }

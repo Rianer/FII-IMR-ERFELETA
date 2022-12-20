@@ -115,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 0}
   price: 4
+  low_money: []
 --- !u!1 &2558322089429822764
 GameObject:
   m_ObjectHideFlags: 0
@@ -175,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 0}
   price: 5
+  low_money: []
 --- !u!1 &4707952345994533941
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 3160287237119469480, guid: 47794d96be03aa4488ec0cddd2669597, type: 3}
   price: 3
+  low_money: []
 --- !u!1 &4719833323468531583
 GameObject:
   m_ObjectHideFlags: 0
@@ -295,6 +298,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 9187518333411978279, guid: f104c757addbd64459c3af5bd98b2166, type: 3}
   price: 8
+  low_money: []
 --- !u!1 &4934159331489604647
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +359,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 7825508640706682807, guid: 898a1ed5c347d18439b58c8161544da1, type: 3}
   price: 6
+  low_money: []
 --- !u!1 &6545662604348844717
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,6 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 6652306892488537877, guid: cfd73dbe863b5344ca1b6785a40f3b52, type: 3}
   price: 3
+  low_money: []
 --- !u!1 &6585165588475243291
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +432,7 @@ GameObject:
   - component: {fileID: 8807912579826239284}
   - component: {fileID: 8260084590663930924}
   - component: {fileID: 2705494908117565795}
+  - component: {fileID: 3842762766784831618}
   m_Layer: 0
   m_Name: water bottle collider
   m_TagString: Untagged
@@ -475,6 +482,107 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 3684705730336479124, guid: bea959314ec08724fb792090bf98296a, type: 3}
   price: 2
+  low_money:
+  - {fileID: 8300000, guid: f7b6a04d2a8b3074f803701f1cc03453, type: 3}
+  - {fileID: 8300000, guid: 60b264a5d3af60b4c983d43f8fdca2de, type: 3}
+  - {fileID: 8300000, guid: 3496a91c6429b9f47af8b383cf5ed482, type: 3}
+  - {fileID: 8300000, guid: 70137d29fd775eb4b9bd14141f9a96aa, type: 3}
+--- !u!82 &3842762766784831618
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6585165588475243291}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8984255321347978669
 GameObject:
   m_ObjectHideFlags: 0
