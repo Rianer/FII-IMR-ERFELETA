@@ -15,7 +15,7 @@ public class NPC : MonoBehaviour
     private int start_damage;
     AudioSource myAudioSource;
 
- 
+
     public bool isSpawned = true;
     void Start()
     {
@@ -35,8 +35,8 @@ public class NPC : MonoBehaviour
     {
 
         if (collider.tag == "Player Hand")
-        { 
-            myAudioSource.Play();
+        {
+            myAudioSource.Play(0);
             TakeDamage(StatsController.Instance.damage);
             DealDamage(StatsController.Instance);
 
@@ -59,7 +59,7 @@ public class NPC : MonoBehaviour
 
         if(collider.tag == "Throwable" || collider.tag == "Liftable")
         {
-            myAudioSource.Play();
+            myAudioSource.Play(0);
             TakeDamage(100); //damage obiecte hardcodat
             if (health <= 0)
             {
