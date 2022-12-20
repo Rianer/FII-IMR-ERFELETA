@@ -8,9 +8,16 @@ public class VendingMachineTriggers : MonoBehaviour
     GameObject objectToSpawn;
     [SerializeField]
     int price;
+    [SerializeField] AudioClip[] low_money;
+    AudioSource myAudioSource;
+
     // Start is called before the first frame update
     bool locked = false;
-   
+
+    public void Start()
+    {
+        myAudioSource= GetComponent<AudioSource>();
+    }
     private void OnTriggerEnter(Collider other)
     {
 
@@ -29,6 +36,12 @@ public class VendingMachineTriggers : MonoBehaviour
         else
         {
             Debug.Log("Not enough money");
+            int money = StatsController.Instance.GetMoney();
+            if (money < 40)
+            {
+                AudioClip clip = low_money[UnityEngine.Random.Range(0, low_money.Length)];
+                myAudioSource.PlayOneShot(clip);
+            }
         }
     }
 
