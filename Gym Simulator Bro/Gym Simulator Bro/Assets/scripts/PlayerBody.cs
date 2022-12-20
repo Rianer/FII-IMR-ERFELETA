@@ -63,6 +63,8 @@ public class PlayerBody : MonoBehaviour
 
     private void ApplyExerciseCompletion()
     {
+        StatsController.Instance.IncreaseRespect(2);
+        StatsController.Instance.DecreaseStamina((int)(1));
         Debug.Log("Exercise is completed");
     }
 }

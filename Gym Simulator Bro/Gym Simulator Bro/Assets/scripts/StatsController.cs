@@ -88,6 +88,11 @@ public class StatsController : MonoBehaviour
         hunger = hunger + amount;
     }
 
+     public void IncreaseRespect(int amount)
+    {
+        respect = respect + amount;
+    }
+
     public void DecreaseHunger()
     {
         hunger = hunger - 5;
