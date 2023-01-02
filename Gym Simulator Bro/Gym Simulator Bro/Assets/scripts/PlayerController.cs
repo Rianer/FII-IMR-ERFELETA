@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     {
         if((DateTime.Now - start).TotalSeconds > 10)
         {
-            StatsController.Instance.DecreaseHunger();
+            StatsController.Instance.DecreaseHunger(5);
             start = DateTime.Now;
         }
     }

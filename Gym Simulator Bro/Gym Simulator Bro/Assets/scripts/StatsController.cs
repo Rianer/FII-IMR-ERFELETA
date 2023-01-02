@@ -8,9 +8,9 @@ using TMPro;
 
 public class StatsController : MonoBehaviour
 {
-    int hunger = 100;
+    int hunger = 80;
     int respect = 0;
-    int stamina = 100;
+    int stamina = 50;
     int money = 100;
     public int health = 100;
     [SerializeField] public int damage;
@@ -66,12 +66,18 @@ public class StatsController : MonoBehaviour
     
     public void DecreaseStamina(int amount)
     {
-        stamina = stamina - amount;
+        if (stamina - amount >= 0)
+            stamina = stamina - amount;
+        else
+            stamina = 0;
     }
 
     public void IncreaseStamina(int amount)
     {
-        stamina = stamina+ amount;
+        if (stamina + amount <= 100)
+            stamina = stamina + amount;
+        else
+            stamina = 100;
     }
     public void DecreaseMoney(int amount)
     {
@@ -85,17 +91,26 @@ public class StatsController : MonoBehaviour
 
     public void IncreaseHunger(int amount)
     {
-        hunger = hunger + amount;
+        if (hunger + amount <= 100)
+            hunger = hunger + amount;
+        else
+            hunger = 100;
     }
 
      public void IncreaseRespect(int amount)
-    {
-        respect = respect + amount;
-    }
+     {
+        if (respect + amount <= 100)
+            respect = respect + amount;
+        else
+            respect = 100;
+     }
 
-    public void DecreaseHunger()
+    public void DecreaseHunger(int amount)
     {
-        hunger = hunger - 5;
+        if (hunger - amount >= 0)
+            hunger = hunger - amount;
+        else
+            hunger = 0;
     }
 
     public int GetMoney()

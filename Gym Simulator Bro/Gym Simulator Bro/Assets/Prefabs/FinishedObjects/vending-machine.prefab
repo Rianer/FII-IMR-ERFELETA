@@ -113,8 +113,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28f1dbe5d90017449aa1ead67eb1cb4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 0}
-  price: 4
+  objectToSpawn: {fileID: 4088237116796064199, guid: 61790ea5cdd90eb408f1cfb4ec46792d, type: 3}
+  price: 7
   low_money: []
 --- !u!1 &2558322089429822764
 GameObject:
@@ -174,8 +174,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28f1dbe5d90017449aa1ead67eb1cb4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToSpawn: {fileID: 0}
-  price: 5
+  objectToSpawn: {fileID: 4374042411704058868, guid: 3d40b4a9834e98046bd420292ad7adb8, type: 3}
+  price: 10
   low_money: []
 --- !u!1 &4707952345994533941
 GameObject:
