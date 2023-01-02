@@ -18,7 +18,6 @@ public class Eating : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("food entered mouth area");
         if(other.tag == "Edible" && !locked)
         {
             locked = true;

@@ -331,7 +331,6 @@ MonoBehaviour:
   m_AnchorRotationMode: 0
 --- !u!120 &5348129404790497042
 LineRenderer:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -434,13 +433,10 @@ LineRenderer:
     numCapVertices: 4
     alignment: 0
     textureMode: 0
-    textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
-  m_MaskInteraction: 0
   m_UseWorldSpace: 1
   m_Loop: 0
-  m_ApplyActiveColorSpace: 0
 --- !u!114 &5348129404790497043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -586,7 +582,6 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_SortAtRoot: 0
 --- !u!1 &5348129405727462491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +1028,6 @@ MonoBehaviour:
   m_AnchorRotationMode: 0
 --- !u!120 &5348129406194875929
 LineRenderer:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1136,13 +1130,10 @@ LineRenderer:
     numCapVertices: 4
     alignment: 0
     textureMode: 0
-    textureScale: {x: 1, y: 1}
     shadowBias: 0.5
     generateLightingData: 0
-  m_MaskInteraction: 0
   m_UseWorldSpace: 1
   m_Loop: 0
-  m_ApplyActiveColorSpace: 0
 --- !u!114 &5348129406194875930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1288,13 +1279,11 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_SortAtRoot: 0
 --- !u!1001 &2387642655130984487
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 5348129406136192587}
     m_Modifications:
     - target: {fileID: 7717695332079669147, guid: c56cfb123715c964ca055a29393cf823, type: 3}
@@ -1346,7 +1335,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c56cfb123715c964ca055a29393cf823, type: 3}
 --- !u!20 &5348129404179165112 stripped
 Camera:
@@ -1363,7 +1351,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 5348129404790497045}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb5c30a3b9732924f9b2c86f3ac490e9, type: 3}
@@ -1459,7 +1446,6 @@ PrefabInstance:
       value: Player Hand
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fb5c30a3b9732924f9b2c86f3ac490e9, type: 3}
 --- !u!1 &4734476005009709895 stripped
 GameObject:
@@ -1505,7 +1491,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 2
     m_TransformParent: {fileID: 5348129406194875932}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: fb5c30a3b9732924f9b2c86f3ac490e9, type: 3}
@@ -1601,7 +1586,6 @@ PrefabInstance:
       value: Player Hand
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: fb5c30a3b9732924f9b2c86f3ac490e9, type: 3}
 --- !u!1 &4734476004950185524 stripped
 GameObject:
