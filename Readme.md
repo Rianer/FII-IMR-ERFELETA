@@ -1,4 +1,4 @@
-# Workout Simulator, Bro
+# Workout Simulator, Bro!
   The project is intended to be a game that simulates a workout session in a gym. The player has the opportunity to interact amusingly with the environment(NPCs and equipment) starting from a weak body state to the goal of the game, which is to be the strongest in the gym. The game tries to emulate real life as well as possible, with the player’s character having the needs of a real human being(hunger, stamina) that need to be fulfilled to achieve the game’s goal.
   
 #### Relevant links
